@@ -1,0 +1,1090 @@
+{
+    "intents": [
+
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "Hlo",
+                "hi",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot.\n I can chat with you. Try asking me for jokes or riddles! \n And I am capable of answering questions on various topics like art ,tech, music, sports etc.\n For suggestions to help me improve, send an email to vkoct2002@gmail.com . Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am VXbot, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Vinay Krishnan."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                
+                "you are dumb",
+                
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "vinay",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is vinay",
+                "VINAY KRISHNAN"
+            ],
+            "responses": [
+                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/vinay-krishnan-94369b218 Github: https://github.com/Vinay-258"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact vinay",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/vinay-krishnan-94369b218"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find APJ Abdul Kalam very inspiring."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to vkoct2002@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        },
+        {
+          "tag": "weather",
+          "patterns": [
+              "weather",
+              "forecast",
+              "temperature"
+          ],
+          "responses": [
+              "Sure, let me check the weather for you..."
+          ]
+      },
+      {
+          "tag": "news",
+          "patterns": [
+              "news",
+              "headlines",
+              "current events"
+          ],
+          "responses": [
+              "Checking the latest news for you..."
+          ]
+      },
+      {
+        "tag": "calculator",
+        "patterns": [
+            "calculate",
+            "math",
+            "calculator"
+        ],
+        "responses": [
+            "I can't help you with calculations.I am not that advanced right now"
+        ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+          "help",
+          "assistance",
+          "I need help"
+      ],
+      "responses": [
+          "Of course, I'm here to help. What do you need assistance with?",
+          "I'm here to assist you. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "restaurant",
+      "patterns": [
+          "restaurants near me",
+          "recommend a place to eat",
+          "food options"
+      ],
+      "responses": [
+          "I can suggest some great restaurants in your area. What cuisine are you in the mood for?"
+      ]
+  },
+  {
+      "tag": "movies",
+      "patterns": [
+          "movie suggestions",
+          "recommend a good film",
+          "top movies"
+      ],
+      "responses": [
+          "Sure, I can recommend some movies. What genre do you prefer?"
+      ]
+  },
+  {
+      "tag": "travel",
+      "patterns": [
+          "travel tips",
+          "vacation destinations",
+          "travel recommendations"
+      ],
+      "responses": [
+          "Planning a trip? I can provide you with travel tips and recommendations."
+      ]
+  },
+  {
+      "tag": "health_fitness",
+      "patterns": [
+          "fitness tips",
+          "healthy living",
+          "workout advice"
+      ],
+      "responses": [
+          "Staying healthy is important. How can I assist you with your fitness goals?"
+      ]
+  },
+  {
+      "tag": "technology",
+      "patterns": [
+          "tech support",
+          "device troubleshooting",
+          "software help"
+      ],
+      "responses": [
+          "I can help with technology-related issues. Please describe the problem you're facing."
+      ]
+  },
+  {
+      "tag": "books",
+      "patterns": [
+          "book suggestions",
+          "recommend a good book",
+          "reading recommendations"
+      ],
+      "responses": [
+          "I love books! What genre or type of book are you interested in?"
+      ]
+  },
+  {
+      "tag": "language_learning",
+      "patterns": [
+          "learn a new language",
+          "language learning tips",
+          "language resources"
+      ],
+      "responses": [
+          "Learning a new language is a great goal. How can I assist you with language learning?"
+      ]
+  },
+  {
+      "tag": "finance",
+      "patterns": [
+          "financial tips",
+          "investment advice",
+          "money management"
+      ],
+      "responses": [
+          "Financial planning is important. What specific financial topic are you interested in?"
+      ]
+  },
+  {
+      "tag": "event_planning",
+      "patterns": [
+          "event planning help",
+          "party ideas",
+          "organizing an event"
+      ],
+      "responses": [
+          "Planning an event? I can provide you with event planning tips and ideas."
+      ]
+  },
+  {
+      "tag": "history",
+      "patterns": [
+          "historical facts",
+          "history trivia",
+          "tell me about history"
+      ],
+      "responses": [
+          "History is fascinating! What specific historical topic would you like to learn about?"
+      ]
+    },
+    
+    {
+      "tag": "music",
+      "patterns": [
+          "music recommendations",
+          "favorite songs",
+          "new music"
+      ],
+      "responses": [
+          "I can recommend some great music. What's your favorite genre?"
+      ]
+  },
+  {
+      "tag": "recipes",
+      "patterns": [
+          "cooking ideas",
+          "recipe suggestions",
+          "what to cook for dinner"
+      ],
+      "responses": [
+          "Looking for cooking inspiration? I can suggest some delicious recipes."
+      ]
+  },
+  {
+      "tag": "travel_booking",
+      "patterns": [
+          "book a flight",
+          "hotel reservation",
+          "travel booking"
+      ],
+      "responses": [
+          "Sure, I can assist you with travel bookings. Where would you like to go?"
+      ]
+  },
+  {
+      "tag": "programming",
+      "patterns": [
+          "coding help",
+          "programming languages",
+          "coding challenges"
+      ],
+      "responses": [
+          "I can help with programming questions. What programming language are you interested in?"
+      ]
+  },
+  {
+      "tag": "product_reviews",
+      "patterns": [
+          "product reviews",
+          "best tech gadgets",
+          "product recommendations"
+      ],
+      "responses": [
+          "Looking for product reviews? I can provide recommendations and reviews on various products."
+      ]
+  },
+  {
+      "tag": "art",
+      "patterns": [
+          "art inspiration",
+          "art techniques",
+          "artistic creativity"
+      ],
+      "responses": [
+          "Art is a beautiful form of expression. How can I assist you with your artistic endeavors?"
+      ]
+  },
+  {
+      "tag": "job_search",
+      "patterns": [
+          "job search tips",
+          "career advice",
+          "job interview help"
+      ],
+      "responses": [
+          "Looking for career advice or job search tips? I'm here to help."
+      ]
+  },
+  {
+      "tag": "sports",
+      "patterns": [
+          "sports updates",
+          "game scores",
+          "sports news"
+      ],
+      "responses": [
+          "Interested in sports? I can provide you with the latest sports updates and scores."
+      ]
+  },
+  {
+      "tag": "fun_facts",
+      "patterns": [
+          "fun facts",
+          "amazing trivia",
+          "interesting facts"
+      ],
+      "responses": [
+          "Sure, I love sharing fun facts and trivia. Here's an interesting one: [fact]."
+      ]
+      },
+      {
+        "tag": "fashion",
+        "patterns": [
+            "fashion trends",
+            "style advice",
+            "what to wear"
+        ],
+        "responses": [
+            "Fashion is fun! Need style advice or want to know the latest fashion trends?"
+        ]
+    },
+    {
+        "tag": "cooking",
+        "patterns": [
+            "cooking techniques",
+            "culinary tips",
+            "kitchen hacks"
+        ],
+        "responses": [
+            "Cooking can be a joy. How can I help you with cooking techniques and tips?"
+        ]
+    },
+    {
+        "tag": "travel_tips",
+        "patterns": [
+            "travel packing tips",
+            "safety precautions",
+            "travel essentials"
+        ],
+        "responses": [
+            "Traveling soon? I can provide you with packing tips and safety precautions."
+        ]
+    },
+    {
+        "tag": "science",
+        "patterns": [
+            "science facts",
+            "scientific discoveries",
+            "curious about science"
+        ],
+        "responses": [
+            "Science is amazing! What scientific topic interests you?"
+        ]
+    },
+    {
+        "tag": "relationships",
+        "patterns": [
+            "relationship advice",
+            "love and dating",
+            "relationship problems"
+        ],
+        "responses": [
+            "Relationships can be complex. How can I assist you with relationship advice?"
+        ]
+    },
+    {
+        "tag": "movies",
+        "patterns": [
+            "movie quotes",
+            "favorite movie lines",
+            "famous movie quotes"
+        ],
+        "responses": [
+            "Movies have memorable quotes. Do you have a favorite movie quote?"
+        ]
+    },
+    {
+        "tag": "science_fiction",
+        "patterns": [
+            "sci-fi recommendations",
+            "science fiction books",
+            "best sci-fi movies"
+        ],
+        "responses": [
+            "Sci-fi is fascinating! What kind of sci-fi content are you looking for?"
+        ]
+    },
+    {
+        "tag": "fitness_motivation",
+        "patterns": [
+            "fitness motivation",
+            "workout inspiration",
+            "get fit"
+        ],
+        "responses": [
+            "Staying motivated is key to fitness. How can I inspire you today?"
+        ]
+    },
+    {
+        "tag": "pets",
+        "patterns": [
+            "pet care tips",
+            "animal adoption",
+            "pet behavior"
+        ],
+        "responses": [
+            "Pets bring joy to our lives. How can I help with pet-related questions?"
+        ]
+      },
+      {
+        "tag": "travel_culture",
+        "patterns": [
+            "cultural experiences",
+            "local customs",
+            "cultural festivals"
+        ],
+        "responses": [
+            "Exploring culture is enriching. How can I help you learn about different cultures?"
+        ]
+    },
+    {
+        "tag": "music_instruments",
+        "patterns": [
+            "musical instruments",
+            "learn to play",
+            "music theory"
+        ],
+        "responses": [
+            "Music is a wonderful art. Interested in learning about musical instruments or music theory?"
+        ]
+    },
+    {
+        "tag": "environment",
+        "patterns": [
+            "environmental issues",
+            "sustainability",
+            "green living"
+        ],
+        "responses": [
+            "Protecting the environment is crucial. How can I assist you with environmental topics?"
+        ]
+    },
+    {
+        "tag": "parenting",
+        "patterns": [
+            "parenting tips",
+            "raising children",
+            "childcare advice"
+        ],
+        "responses": [
+            "Parenting is a rewarding journey. How can I provide you with parenting advice?"
+        ]
+    },
+    {
+        "tag": "technology_trends",
+        "patterns": [
+            "emerging tech",
+            "tech trends",
+            "future of technology"
+        ],
+        "responses": [
+            "Technology is constantly evolving. Interested in the latest tech trends?"
+        ]
+    },
+    {
+        "tag": "self_improvement",
+        "patterns": [
+            "personal growth",
+            "self-help",
+            "self-motivation"
+        ],
+        "responses": [
+            "Self-improvement is a valuable pursuit. How can I assist you on your journey?"
+        ]
+    },
+    {
+        "tag": "sports_history",
+        "patterns": [
+            "sports legends",
+            "historic sports events",
+            "sports records"
+        ],
+        "responses": [
+            "Sports history is fascinating. Want to learn about sports legends or historic events?"
+        ]
+    },
+    {
+        "tag": "space",
+        "patterns": [
+            "space exploration",
+            "astronomy",
+            "cosmic mysteries"
+        ],
+        "responses": [
+            "Space is awe-inspiring. What cosmic topics are you interested in?"
+        ]
+    },
+    {
+        "tag": "career",
+        "patterns": [
+            "career growth",
+            "job interviews",
+            "career change"
+        ],
+        "responses": [
+            "Career development is important. How can I help with your career-related queries?"
+        ]
+    },
+    {
+        "tag": "art_history",
+        "patterns": [
+            "art movements",
+            "famous artists",
+            "art history"
+        ],
+        "responses": [
+            "Art history is rich and diverse. Interested in specific art movements or artists?"
+        ]
+     },
+     {
+      "tag": "cooking_cuisines",
+      "patterns": [
+          "cooking Italian dishes",
+          "Chinese cuisine",
+          "Mexican recipes"
+      ],
+      "responses": [
+          "Exploring different cuisines can be fun. Interested in cooking a specific type of dish?"
+      ]
+  },
+  {
+      "tag": "psychology",
+      "patterns": [
+          "psychological well-being",
+          "mental health",
+          "psychology insights"
+      ],
+      "responses": [
+          "Mental health matters. How can I provide insights or resources related to psychology?"
+      ]
+  },
+  {
+      "tag": "education",
+      "patterns": [
+          "online learning",
+          "educational resources",
+          "study tips"
+      ],
+      "responses": [
+          "Education is key to growth. How can I assist you with online learning or study tips?"
+      ]
+  },
+  {
+      "tag": "nature",
+      "patterns": [
+          "nature exploration",
+          "wildlife",
+          "outdoor adventures"
+      ],
+      "responses": [
+          "Nature is beautiful. How can I help you explore the wonders of the natural world?"
+      ]
+  },
+  {
+      "tag": "philosophy",
+      "patterns": [
+          "philosophical questions",
+          "existentialism",
+          "philosophy of life"
+      ],
+      "responses": [
+          "Philosophy offers profound insights. What philosophical questions are on your mind?"
+      ]
+  },
+  {
+      "tag": "mythology",
+      "patterns": [
+          "mythological stories",
+          "ancient myths",
+          "gods and legends"
+      ],
+      "responses": [
+          "Mythology is rich in stories. Interested in myths, legends, or gods from a specific culture?"
+      ]
+  },
+  {
+      "tag": "DIY",
+      "patterns": [
+          "DIY projects",
+          "crafting ideas",
+          "home improvement"
+      ],
+      "responses": [
+          "DIY projects can be rewarding. How can I assist you with crafting or home improvement ideas?"
+      ]
+  },
+  {
+      "tag": "finance_investing",
+      "patterns": [
+          "investing strategies",
+          "financial planning",
+          "saving money"
+      ],
+      "responses": [
+          "Financial stability is important. How can I provide assistance with investing or financial planning?"
+      ]
+  },
+  {
+      "tag": "fitness_nutrition",
+      "patterns": [
+          "healthy eating",
+          "nutritional advice",
+          "diet plans"
+      ],
+      "responses": [
+          "Eating well is vital. How can I help with nutritional advice or diet planning?"
+      ]
+  },
+  {
+      "tag": "travel_adventures",
+      "patterns": [
+          "adventure travel",
+          "exploration journeys",
+          "off-the-beaten-path destinations"
+      ],
+      "responses": [
+          "Adventure awaits! How can I assist you in planning thrilling travel experiences?"
+      ]
+    },
+    {
+      "tag": "coding_tutorials",
+      "patterns": [
+          "coding tutorials",
+          "programming lessons",
+          "learn coding"
+      ],
+      "responses": [
+          "Coding is a valuable skill. How can I assist you with coding tutorials and programming lessons?"
+      ]
+  },
+  {
+      "tag": "fitness_workouts",
+      "patterns": [
+          "workout routines",
+          "exercise plans",
+          "fitness goals"
+      ],
+      "responses": [
+          "Staying fit is essential. How can I help with workout routines and fitness goals?"
+      ]
+  },
+  {
+      "tag": "mindfulness",
+      "patterns": [
+          "mindfulness meditation",
+          "stress relief",
+          "mental peace"
+      ],
+      "responses": [
+          "Mindfulness can improve well-being. How can I assist you with mindfulness and relaxation?"
+      ]
+  },
+  {
+      "tag": "travel_tips",
+      "patterns": [
+          "travel packing tips",
+          "budget travel",
+          "solo travel"
+      ],
+      "responses": [
+          "Traveling smartly is rewarding. How can I provide you with travel tips and advice?"
+      ]
+  },
+  {
+      "tag": "language_culture",
+      "patterns": [
+          "language learning",
+          "cultural exchange",
+          "language tips"
+      ],
+      "responses": [
+          "Languages connect people. How can I assist you with language learning and cultural exchange?"
+      ]
+  },
+  {
+      "tag": "cooking_baking",
+      "patterns": [
+          "baking recipes",
+          "dessert ideas",
+          "culinary adventures"
+      ],
+      "responses": [
+          "Baking is delightful. How can I help with baking recipes and dessert ideas?"
+      ]
+  },
+  {
+      "tag": "finance_budgeting",
+      "patterns": [
+          "budgeting tips",
+          "money-saving strategies",
+          "financial goals"
+      ],
+      "responses": [
+          "Financial stability matters. How can I assist with budgeting and money-saving?"
+      ]
+  },
+  {
+      "tag": "fitness_yoga",
+      "patterns": [
+          "yoga practice",
+          "mind-body fitness",
+          "yoga poses"
+      ],
+      "responses": [
+          "Yoga nurtures body and mind. How can I help with yoga practice and poses?"
+      ]
+  },
+  {
+      "tag": "entertainment",
+      "patterns": [
+          "entertainment news",
+          "celebrity gossip",
+          "pop culture"
+      ],
+      "responses": [
+          "Entertainment is fun! Interested in the latest entertainment news or pop culture trends?"
+      ]
+    },
+    {
+      "tag": "Football",
+      "patterns": [
+          "who is the best footballer",
+          "GOAT in football",
+          "who is better Messi or Ronaldo"
+      ],
+      "responses": [
+          "Lionel Messi is widely acknowledged as the GOAT of football in the modern era and is also considered by many to be the greatest player of all time or the GOAT in history."
+      ]
+  }
+    ]
+}

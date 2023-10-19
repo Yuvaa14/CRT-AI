@@ -1,0 +1,41 @@
+
+DEFINITION OF ARITIFICIAL INTELLIGENCE :
+--> Artificial intelligence is the simulation of human intelligence processes by machines, especially computer system 
+APPLICATIONS OF ARTIFICIAL INTELLIGENCE:
+    --> Machine learning
+    --> Natural language processing
+    --> Deep learning
+    --> Computer vision
+    --> Robotics
+    --> Finance
+    --> Self-driving car
+    --> Marketing
+    --> Pattern recognition
+    --> Chatbot
+USES OF AI:
+     --> Fraud detection
+     --> image recognition
+     -->speech recognition
+FATHER O AI:
+     ---> "John McCarthy" is considered as the father of Artificial Intelligence. 
+     ---> "John McCarthy" was an American computer scientist.
+     ---> The term "artificial intelligence" was coined by him.
+                                                  TITLE OF THE PROJECT
+          NAME:Natural Language processing Chatbot.....
+          DOMAIN:Arificial Intelligence
+
+Description: Develop a chatbot that can understand and respond to user input using NLP techniques.
+
+Steps:
+
+1.Data Collection: Gather a dataset of sample conversations.
+2.Text Preprocessing: Clean and tokenize the text data.
+3.Intent Recognition: Use techniques like keyword matching or intent recognition models to understand user intent.
+4.Response Generation: Design a response generation mechanism based on predefined templates or using sequence-to-sequence models.
+5.User Interaction: Implement a user interface for users to interact with the chatbot.
+6.Learning and Improvement: Integrate mechanisms for the chatbot to learn from user interactions and improve over time.
+Tech Stack:
+
+-> Python
+-> Natural Language Processing libraries (NLTK, spaCy)
+-> Deep Learning frameworks (TensorFlow or PyTorch).......
